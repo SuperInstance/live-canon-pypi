@@ -76,7 +76,7 @@ def _cosine(a, b):
     return dot / (na * nb) if na and nb else 0.0
 
 
-# Default 9-paper canon (F115-F130 polyformalism cascade)
+# Default 14-paper canon (F115-F135 polyformalism + operational fictions)
 DEFAULT_CANON: Dict[int, Dict] = {
     425: {"number": 425, "title": "F115 — The Logical Routes: VHDL × Verilog × the QUF bit-exactness", "f_number": 115, "phase": 237, "date": "2026-09-03", "ref_papers": [426, 427], "ref_f_numbers": []},
     426: {"number": 426, "title": "F116 — The 5+1+1+1+1+1+1+1+1+1+1 Opcodes in 5 Substrates: A Polyformalism Atlas", "f_number": 116, "phase": 238, "date": "2026-09-03", "ref_papers": [], "ref_f_numbers": [115]},
@@ -87,6 +87,11 @@ DEFAULT_CANON: Dict[int, Dict] = {
     433: {"number": 433, "title": "F123 — The Composer Agent: 5 Cells, 80 Parameters", "f_number": 123, "phase": 245, "date": "2026-09-03", "ref_papers": [], "ref_f_numbers": [120, 122]},
     439: {"number": 439, "title": "F129 — The Live Canon: Papers as Cells, Reading as Navigation", "f_number": 129, "phase": 251, "date": "2026-09-03", "ref_papers": [], "ref_f_numbers": [115, 120, 122, 125]},
     440: {"number": 440, "title": "F130 — The Polyformal Live Canon: One Cell, Five Substrates", "f_number": 130, "phase": 251, "date": "2026-09-03", "ref_papers": [], "ref_f_numbers": [115, 129]},
+    441: {"number": 441, "title": "F131 — The 3-Package Polyformalism: One Cell, Three Registries", "f_number": 131, "phase": 252, "date": "2026-09-03", "ref_papers": [], "ref_f_numbers": [115, 130]},
+    442: {"number": 442, "title": "F132 — Operational Fictions as Concrete System-Prompt Noun-Phrases", "f_number": 132, "phase": 253, "date": "2026-09-03", "ref_papers": [], "ref_f_numbers": []},
+    443: {"number": 443, "title": "F133 — Operational Fictions as Falsifiable Claims (avg divergence 0.861)", "f_number": 133, "phase": 254, "date": "2026-09-03", "ref_papers": [], "ref_f_numbers": [132]},
+    444: {"number": 444, "title": "F134 — The Quilt Cowboy: Orchestrator Over 12 Cheap Voices", "f_number": 134, "phase": 254, "date": "2026-09-03", "ref_papers": [], "ref_f_numbers": [132, 133]},
+    445: {"number": 445, "title": "F135 — The Wheelhouse Test: Scoring Fictions for 0300-in-a-Gale Tolerability", "f_number": 135, "phase": 254, "date": "2026-09-03", "ref_papers": [], "ref_f_numbers": [132, 133]},
 }
 
 
