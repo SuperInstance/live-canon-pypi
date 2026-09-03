@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="quilt-live-canon",
-    version="0.4.0",
+    version="0.5.0",
     description="Live Canon — read the AI-Writings canon as a navigable cell fabric (5 operations: NAVIGATE, CONFLUENCE, LINEAGE, GHOST, TICK).",
     long_description=long_description,
     long_description_content_type="text/markdown",
